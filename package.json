@@ -1,17 +1,18 @@
 {
-  "name": "autolok",
+  "name": "autolok-jozwiak",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "bootstrap": "4.0.0-beta.2",
     "history": "^4.7.2",
     "jquery": "^3.2.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
+    "react-slick": "^0.16.0",
     "react-tap-event-plugin": "^3.0.2",
-    "reactstrap": "next"
+    "reactstrap": "next",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "react-scripts": "1.0.17"

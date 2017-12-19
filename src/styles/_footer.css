@@ -1,8 +1,8 @@
 .my-container {
-  background-color: #2C2C2C;
+  background-color: #2E3192;
   color: #949494;
   font-size: 12px;
-  height: 111px;
+  height: 80px;
   position: fixed;
   bottom: 0;
   right: 0;
@@ -11,7 +11,7 @@
   z-index: 100;
 }
 .powered {
-  border-top: 1px solid #949494;
+  border-top: 1px solid #4C94F7;
   margin: 0 auto;
   margin-top: 40px;
   padding-top: 10px;

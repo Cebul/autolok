@@ -34,13 +34,13 @@ class Header extends Component {
          <Collapse isOpen={this.state.isOpen} navbar>
            <Nav navbar className="my-nav">
              <NavItem className="my-nav-item">
-               <NavLink tag={Link} onClick={(this.state.isOpen) ? this.toggle : null} to="/about">ABOUT US</NavLink>
+               <NavLink tag={Link} onClick={(this.state.isOpen) ? this.toggle : null} to="/about">O NAS</NavLink>
              </NavItem>
              <NavItem className="my-nav-item">
-               <NavLink tag={Link} onClick={(this.state.isOpen) ? this.toggle : null} to="/skicams">SKICAMS</NavLink>
+               <NavLink tag={Link} onClick={(this.state.isOpen) ? this.toggle : null} to="/skicams">OFERTA</NavLink>
              </NavItem>
              <NavItem className="my-nav-item">
-               <NavLink tag={Link} onClick={(this.state.isOpen) ? this.toggle : null} to="/contact">CONTACT</NavLink>
+               <NavLink tag={Link} onClick={(this.state.isOpen) ? this.toggle : null} to="/contact">KONTAKT</NavLink>
              </NavItem>
            </Nav>
          </Collapse>

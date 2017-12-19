@@ -1,60 +1,19 @@
 import React from 'react'
-import {Container, Row, Col, Card, CardImg, CardBody, CardTitle, CardText} from 'reactstrap'
+import { Jumbotron, Button } from 'reactstrap'
 
-const styles = {
-  container: {
-    backgroundColor: "#F8F8F8",
-    height: "100%",
-    padding: "14%",
-    paddingTop: 40,
-    paddingBottom: 150
-  },
-  column: {
-    boxShadow: "0 0 10px #fff",
-    marginTop: "5%"
-  },
-  cardBody: {
-    fontSize: 12
-  },
-  cardTitle: {
-    fontSize: 16
-  }
-} // I used this method, to show that I know her
-
-const About = () => {
+const Example = (props) => {
   return (
-    <Container fluid style={styles.container}>
-      <Row>
-        <Col xs={12} sm={{size:12}} md={{size:4}} lg={{size:4}}>
-          <Card style={styles.column}>
-            <CardImg top width="100%" src="" alt="Image" />
-            <CardBody style={styles.cardBody}>
-              <CardTitle style={styles.cardTitle}>Lorem ipsum</CardTitle>
-              <CardText>Etiam iaculis turpis vitae lacus placerat vulputate. Sed laoreet ornare laoreet. Nullam in ipsum velit.</CardText>
-            </CardBody>
-          </Card>
-        </Col>
-        <Col xs={12} sm={{size:12}} md={4} lg={{size:4}}>
-          <Card style={styles.column}>
-            <CardImg top width="100%" src="" alt="Image" />
-            <CardBody style={styles.cardBody}>
-              <CardTitle style={styles.cardTitle}>Lorem ipsum</CardTitle>
-              <CardText>Etiam iaculis turpis vitae lacus placerat vulputate. Sed laoreet ornare laoreet. Nullam in ipsum velit.</CardText>
-            </CardBody>
-          </Card>
-        </Col>
-        <Col xs={12} sm={{size:12}} md={4} lg={{size:4}}>
-          <Card style={styles.column}>
-            <CardImg top width="100%" src="" alt="Image" />
-            <CardBody style={styles.cardBody}>
-              <CardTitle style={styles.cardTitle}>Lorem ipsum</CardTitle>
-              <CardText>Etiam iaculis turpis vitae lacus placerat vulputate. Sed laoreet ornare laoreet. Nullam in ipsum velit.</CardText>
-            </CardBody>
-          </Card>
-        </Col>
-      </Row>
-    </Container>
-  ) //return
-} //About
+    <div>
+      <Jumbotron>
+        <h3 className="display-3">O Nas</h3>
+        <p className="lead">Autolok to marka specjalizująca sie w profesjonalnym monitoringu GPS , nasze działania poparte są latami doświadczeń w branży oraz potrzebami klientów które zbieraliśmy przez ostanie lata. Urządzenia które używamy do monitoringu produkowane są w Polsce i posiadają wszelkie homologacje dzięki którym zawsze możesz być  pewny, że urządzenia nie zrobią nic złego z pojazdami w których są montowane.</p>
+        <hr className="my-2" />
+        <p className="lead">
+          <Button color="primary">Learn More</Button>
+        </p>
+      </Jumbotron>
+    </div>
+  )
+}
 
-export default About
+export default Example
